@@ -1,12 +1,10 @@
-
 {
-    "files.autoSave": "afterDelay",
-    "window.menuBarVisibility": "default",
+    "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
     "editor.minimap.enabled": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "git.confirmSync": false,
-    "gitlens.gitExplorer.files.layout": "list",
+    "editor.wordWrap": "on",
     "python.autoComplete.preloadModules": [
+        "statsmodels",
+        "sqlalchemy",
         "numpy",
         "pandas",
         "matplotlib",
@@ -14,24 +12,50 @@
         "scipy",
         "sklearn"
     ],
+    "autoDocstring.docstringFormat": "numpy",
+    "atomKeymap.promptV3Features": true,
+    "editor.formatOnPaste": true,
+    "workbench.activityBar.visible": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.menuBarVisibility": "default",
+    "TodoParser": {
+        "exclude": [
+            "cpp",
+            "c"
+        ],
+        "include": [
+            "py"
+        ],
+        "folderExclude": [
+            "node_modules",
+            ".vscode"
+        ],
+        "only": [
+            "sub-folder/sub-sub-folder"
+        ],
+        "showInProblems": false,
+        "markers": [
+            "NOTE:",
+            "REMINDER:"
+        ],
+        "autoDefaultMarkers": true
+    },
+    "editor.cursorStyle": "line-thin",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro",
+    "material-icon-theme.folders.color": "#ff7043",
     "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#AB47BC",
-        "list.activeSelectionForeground": "#AB47BC",
-        "list.inactiveSelectionForeground": "#AB47BC",
-        "list.highlightForeground": "#AB47BC",
-        "scrollbarSlider.activeBackground": "#AB47BC50",
-        "editorSuggestWidget.highlightForeground": "#AB47BC",
-        "textLink.foreground": "#AB47BC",
-        "progressBar.background": "#AB47BC",
-        "pickerGroup.foreground": "#AB47BC",
-        "tab.activeBorder": "#AB47BC",
-        "notificationLink.foreground": "#AB47BC"
-    },
-    "materialTheme.cache.workbench.settings": {
-        "accentPrevious": "Yellow",
-        "themeColours": "Palenight",
-        "accent": "Purple"
-    },
-    "gitlens.keymap": "alternate",
-    "workbench.colorTheme": "One Dark Pro"
+        "activityBarBadge.background": "#7210aa",
+        "list.activeSelectionForeground": "#616161",
+        "list.inactiveSelectionForeground": "#616161",
+        "list.highlightForeground": "#616161",
+        "scrollbarSlider.activeBackground": "#616161",
+        "editorSuggestWidget.highlightForeground": "#616161",
+        "textLink.foreground": "#616161",
+        "progressBar.background": "#C6FF00",
+        "pickerGroup.foreground": "#616161",
+        "tab.activeBorder": "#616161"
+    }
 }
