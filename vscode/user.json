@@ -43,9 +43,8 @@
         "autoDefaultMarkers": true
     },
     "editor.cursorStyle": "line-thin",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Dark Improved",
-    "material-icon-theme.folders.color": "#42a5f5",
+    "workbench.iconTheme": "file-icons",
+    "material-icon-theme.folders.color": "#90a4ae",
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#7210aa",
         "list.activeSelectionForeground": "#616161",
@@ -56,12 +55,15 @@
         "textLink.foreground": "#616161",
         "progressBar.background": "#C6FF00",
         "pickerGroup.foreground": "#616161",
-        "tab.activeBorder": "#616161"
+        "tab.activeBorder": "#616161",
+        "statusBar.background": "#6c0bad8f"
     },
     "workbench.sideBar.location": "left",
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
-    }
+    },
+    "extensions.ignoreRecommendations": false,
+    "workbench.colorTheme": "TwoDark"
 }
