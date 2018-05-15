@@ -1,0 +1,19 @@
+# General things to ignore
+build/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+
+# Projects
+.project
+.pydevproject
+.idea
+.vscode
+.sonarlint
+
+# Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
