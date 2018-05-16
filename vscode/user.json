@@ -1,4 +1,5 @@
 {
+    "python.pydev.java.home": "C:\\Program Files\\Java\\jdk-10",
     "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
     "editor.minimap.enabled": true,
     "editor.wordWrap": "on",
@@ -13,7 +14,6 @@
         "sklearn"
     ],
     "autoDocstring.docstringFormat": "numpy",
-    "atomKeymap.promptV3Features": true,
     "editor.formatOnPaste": true,
     "workbench.activityBar.visible": true,
     "gitlens.advanced.messages": {
@@ -43,20 +43,20 @@
         "autoDefaultMarkers": true
     },
     "editor.cursorStyle": "line-thin",
-    "workbench.iconTheme": "file-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#90a4ae",
     "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#7210aa",
+        "statusBar.background": "#2a0c3dc2",
+        "activityBarBadge.background": "#5b02c0",
         "list.activeSelectionForeground": "#616161",
         "list.inactiveSelectionForeground": "#616161",
         "list.highlightForeground": "#616161",
-        "scrollbarSlider.activeBackground": "#616161",
+        "scrollbarSlider.activeBackground": "#61616150",
         "editorSuggestWidget.highlightForeground": "#616161",
         "textLink.foreground": "#616161",
         "progressBar.background": "#C6FF00",
         "pickerGroup.foreground": "#616161",
-        "tab.activeBorder": "#616161",
-        "statusBar.background": "#6c0bad8f"
+        "tab.activeBorder": "#C6FF00"
     },
     "workbench.sideBar.location": "left",
     "[python]": {
@@ -65,5 +65,7 @@
         }
     },
     "extensions.ignoreRecommendations": false,
-    "workbench.colorTheme": "TwoDark"
+    "python.formatting.provider": "none",
+    "materialTheme.cache.workbench.settings": {},
+    "workbench.colorTheme": "One Dark Pro"
 }
