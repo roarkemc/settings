@@ -13,6 +13,7 @@ __pycache__/
 .idea
 .vscode
 .sonarlint
+*/codealike.json
 
 # Notebooks
 .ipynb_checkpoints
