@@ -3,9 +3,9 @@
     "bracket-pair-colorizer-2.showBracketsInGutter": true,
     "bracket-pair-colorizer-2.showBracketsInRuler": true,
     "breadcrumbs.enabled": true,
-    "breadcrumbs.symbolSortOrder": "position",
     "cobiSymbolOutline.sortBy": "Position",
     "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line-thin",
     "editor.fontFamily": "Hack, Consolas, 'Courier New', monospace",
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
@@ -15,6 +15,7 @@
     "editor.minimap.showSlider": "always",
     "editor.renderIndentGuides": false,
     "editor.renderWhitespace": "none",
+    "editor.suggestSelection": "first",
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
     "files.exclude": {
@@ -34,9 +35,19 @@
     },
     "files.maxMemoryForLargeFilesMB": 8192,
     "git.autofetch": true,
+    "gitProjectManager.baseProjectsFolders": [
+        "C:\\Users\\rmcnaug1\\Repos\\Gitlab\\retail-risk\\",
+        "C:\\Users\\rmcnaug1\\Repos\\Github\\"
+    ],
+    "gitlens.views.repositories.files.layout": "tree",
     "markdown.preview.breaks": true,
-    "material-icon-theme.folders.color": "#c0c0c0c2",
+    "material-icon-theme.folders.color": "#90a4ae",
     "material-icon-theme.hidesExplorerArrows": false,
+    "projectManager.git.baseFolders": [
+        "C:\\Users\\rmcnaug1\\Repos\\Gitlab\\retail-risk\\",
+        "C:\\Users\\rmcnaug1\\Repos\\Github\\"
+    ],
+    "projectManager.groupList": true,
     "python.dataScience.exportWithOutputEnabled": true,
     "python.formatting.provider": "yapf",
     "python.jediEnabled": true,
@@ -77,8 +88,8 @@
         }
     },
     "todo-tree.defaultHighlight": {
-        "icon": "repo",
-        "iconColour": "#c0c0c0c2"
+        "icon": "file-directory",
+        "iconColour": "#c0c0c0f8"
     },
     "todo-tree.statusBar": "top three",
     "todo-tree.tags": [
@@ -122,9 +133,9 @@
     ],
     "window.title": "${appName}${separator}${rootName}${separator}${dirty}${activeEditorShort}",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#19257175",
-        "statusBar.foreground": "#c0c0c0f8"
+        "statusBar.background": "#35353575",
+        "statusBar.foreground": "#c4c4c4c0"
     },
-    "workbench.colorTheme": "One Dark+ (Sublime)",
-    "workbench.iconTheme": "file-icons"
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dark Knight"
 }
